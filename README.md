@@ -1,17 +1,20 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Year Progress
+# <img src="public/icon.svg" width="45" align="left"> Year Progress Version - 0.0.1 for Chrome (only)
 
-My Chrome Extension
+Chrome Extension for Year Progress in New Tab
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Progress of Year
+- Time and current Date
+- Quotes about time
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+[**Chrome** extension](https://chrome.google.com/webstore/detail/year-progress-new-tab/padfdnkoippjkeccoegkloedfakanehh)
 
 ## Contribution
 
 Suggestions and pull requests are welcomed!.
 
+The source code the cross-browser extension will be published soon...
+Check my portfolio  [**here**](https://wb.gy)

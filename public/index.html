@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>New Tab</title>
-  <link rel="stylesheet" href="app.css" />
-</head>
-<body>
-  <div class="container">
-    <p id="day" class="day"></p>
-    <div id="clock" class="clock"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Tab</title>
+    <link rel="stylesheet" href="app.css" />
 
-    <hr class="divider" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kulim+Park|Orbitron&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="container">
+        <p id="day" class="day"></p>
+        <div id="clock" class="clock"></div>
 
-    <p class="title">Chrome Extension is Ready!</p>
-    <p class="subtitle">Start by updating <code>index.html</code></p>
-  </div>
-  <script src="app.js"></script>
+        <hr class="divider" />
 
-  <!--
+        <div class="progressbar">
+          <div class="body">
+            <div class="inner" id="progressInner"></div>
+          </div>
+          <div class="txt" id="progressInnerTxt">99%</div>
+        </div>
+        <div class="quote" id="quote"></div>
+        <!-- <p class="subtitle">Start by updating <code>index.html</code></p> -->
+      </div>
+      <div class="copyright">Built By <a href="https://wb.gy">Ahmed</a></div>
+    </div>
+    <script src="app.js"></script>
+
+    <!--
     This HTML file is a template for overriding pages like New Tab, Bookmarks, or History page.
 
     To begin the development, run `npm run watch`.
     To create a production bundle, use `npm run build`.
-  -->
-</body>
+  --></body>
 </html>

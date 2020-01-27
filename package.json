@@ -1,7 +1,7 @@
 {
   "name": "year-progress",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "Chrome Extension for Year Progress in New Tab",
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",
@@ -16,5 +16,6 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.2.2"
-  }
+  },
+  "dependencies": {}
 }
